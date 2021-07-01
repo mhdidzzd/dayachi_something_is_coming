@@ -4,6 +4,10 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100%;
+}
+html, body{
+    height: 83%;
 }
 div.contenu{
     background-color: #EFC1CB;
@@ -11,6 +15,9 @@ div.contenu{
     margin-right: 15px;
     padding-bottom: 200px;
     margin-bottom: 30px;
+}
+.full-height {
+    height: 100%;
 }
 div.contenu p,div.contenu h1{
     text-align: center;

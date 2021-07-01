@@ -63,7 +63,16 @@ h1{
     display: inline-block;
     border: solid white 1px;
     margin-left: 18%;
-    padding-right: 60%;
+    margin-right: 18%;
+    padding-right: 58%;
     padding-left: 2%;
     margin-top: 0;
+}
+@media only screen and (max-width: 768px) {
+    .p5{
+        margin-left: 10%;
+        padding-right: 68%;
+        margin-left: 10%;
+    }
+
 }
